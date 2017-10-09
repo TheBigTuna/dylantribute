@@ -1,0 +1,117 @@
+@import "grid/grid12";
+
+* {
+    box-sizing: border-box;
+
+
+}
+
+body .container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+/* UpperNav Section Below */
+
+
+#upper-nav{
+    position: relative;
+    margin-top: 10px;
+    background-color: #fff;
+    max-width: 100%;
+    border-bottom: 1px solid #cbcbcb;
+    padding-bottom: 15px;
+    font-family: Avenir,sans-serif;
+    
+}
+
+@media screen and (max-width: 800px) {
+#upper-nav {
+    position: absolute;
+    display: inline-block;
+    
+}
+#lower-nav {
+    position: absolute;
+    display: inline-block;
+}
+
+}
+
+
+#upper-nav .shipping{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 13px;
+    color: rgb(252, 0, 0);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    letter-spacing: 1px;
+}
+
+#upper-nav .upper-menu{
+   float: right;
+   margin-right: 35px;
+   
+}
+
+
+
+#upper-nav .upper-menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding-right: 2px;
+}
+
+
+
+#upper-nav .upper-menu a:hover{
+color: #cbcbcb;
+text-decoration: underline;
+}
+
+
+/* LowerNav Section Below */
+/* Come back and move Up text for Lower-Nav a href tag*/
+#lower-nav{
+background-color: #E6E8E4;
+position: relative;
+max-width: 100%;
+border-bottom: 1px solid #cbcbcb;
+font-family: Avenir,sans-serif;
+
+
+}
+
+
+
+#lower-nav .logo img{
+margin-left: 30px;
+margin-top: 15px;
+max-width: 50%;
+width: 88px;
+height: 88px;
+display: inline-block;
+
+}
+
+#lower-nav .lower-menu{
+display: inline-block;
+padding-left: 40px;
+
+
+}
+
+#lower-nav .lower-menu a{
+text-decoration: none;
+color: black;
+font-size: 14px;
+font-weight: 700;
+z-index: 3;
+padding-left: 60px;
+ 
+}
